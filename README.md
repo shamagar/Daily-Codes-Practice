@@ -1,2 +1,2 @@
 # CodesPractise
-Codes and projects
+Daily basis Codes practice snippets
