@@ -3,6 +3,7 @@ package org.magar.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
@@ -21,7 +22,7 @@ public class WelcomeSpringMVC
     }
 
     //Method two to get the information from the server to the user interface(UI) or Frontend with two attributes
-    @RequestMapping("/info")
+    @RequestMapping(value="/info", method = RequestMethod.GET)
     public ModelAndView getInfo()
     {
         ModelAndView mv = new ModelAndView();
