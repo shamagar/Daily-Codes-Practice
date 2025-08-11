@@ -29,7 +29,7 @@ public class FirstController
     {
         //Model info
         model.addAttribute("content", "Java, Spring Boot and Spring MVC ");
-        return "/topic.jsp";                         //Logical View Name
+        return "topic.jsp";                         //Logical View Name
     }
 
     //Using Map
