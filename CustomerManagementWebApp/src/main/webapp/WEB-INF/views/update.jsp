@@ -18,7 +18,7 @@
 
 <form:form action="registerCustomer" modelAttribute="customer" >
     <table>
-        <form:hidden path="id"/>
+        <form:hidden path="cid"/>
         <tr>
             <th>Customer First Name</th>
             <td><form:input path="firstName" /></td>
@@ -33,7 +33,6 @@
         </tr>
 
         <tr>
-
             <td><input type="submit" value="Register"/></td>
         </tr>
     </table>

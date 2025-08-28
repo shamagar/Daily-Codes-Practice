@@ -43,11 +43,11 @@
 
 
     	           <c:url var="UpdateLink" value="/updateForm">
-    	           <c:param name="id" value="${customer.id}" ></c:param>
+    	           <c:param name="id" value="${customer.cid}" ></c:param>
     	           </c:url>
 
     	            <c:url var="DeleteLink" value="/deleteData">
-    	           <c:param name="id" value="${customer.id}" ></c:param>
+    	           <c:param name="id" value="${customer.cid}" ></c:param>
     	           </c:url>
 
     	           <tr>
