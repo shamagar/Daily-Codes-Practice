@@ -1,7 +1,6 @@
 //This code is demonstration on LamdaExpression
-//Lamda Expressions are used for defining anonymous expression or nameless methods of functions
-//It defines as with the help of functional interface. Functional interface is a interface
-//which has only one abstract method.
+//Lambda Expressions are used for defining anonymous expression or nameless methods of functions
+//It defines as with the help of functional interface. A functional interface has exactly one abstract method.
 
 package LambdaExpressionDemo;
 
@@ -25,7 +24,7 @@ class LambdaExpression implements Mylambda
 }
  */
 //Main method
-public class LunchLamdaExpression01
+public class LunchLambdaExpression01
 {
     public static void main(String[] args)
     {
