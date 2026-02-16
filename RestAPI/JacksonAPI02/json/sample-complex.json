@@ -1,0 +1,14 @@
+{
+  "id" : 45,
+  "name" : "Jack",
+  "city" : "Arlington",
+  "course":{
+  
+  "cid":101,
+  "cname":"Design Patterns",
+  "instructorName":"Mosh",
+  "price":4100
+  },
+  "hobbies":["scrolling insta reels","wasting time","losing focus"],
+   "nationality":"American"
+}
