@@ -38,4 +38,28 @@ public class TouristController
         List<Tourist> tourists = service.fetchAllTourists();
         return new ResponseEntity<>(tourists, HttpStatus.OK);
     }
+
+    //API for to update the Tourist info
+    @PutMapping("/updateTourist")
+    public ResponseEntity<?> updateTouristInfo(@RequestBody Tourist tourist)
+    {
+        String status = service.updateTouristData(tourist);
+        return new ResponseEntity<>(status, HttpStatus.OK);
+    }
+
+    //API for to update the Tourist info through id
+    @PatchMapping("/updateinfo/{id}/{price}")
+    public ResponseEntity<?> updateTouristInfoById(@PathVariable Integer id, @PathVariable Double price)
+    {
+        String status = service.updateTouristDataById(id, price);
+        return new ResponseEntity<>(status, HttpStatus.OK);
+    }
+
+    //API for to delete the Tourist info through id
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<?> deleteTouristInfo(@PathVariable Integer id)
+    {
+        String status = service.deleteTouristById(id);
+        return new ResponseEntity<>(status, HttpStatus.OK);
+    }
 }

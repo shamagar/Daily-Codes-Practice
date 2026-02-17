@@ -9,4 +9,7 @@ public interface ITouristService
     String registerTourist(Tourist tourist);
     Tourist getTouristById(Integer id);
     List<Tourist> fetchAllTourists();
+    String updateTouristData(Tourist tourist);
+    String updateTouristDataById(Integer id, Double price);
+    String deleteTouristById(Integer id);
 }

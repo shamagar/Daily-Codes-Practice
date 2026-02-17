@@ -70,7 +70,6 @@ public class Tourist
     }
 
     //To String method to display the result
-
     @Override
     public String toString() {
         return "Tourist{" +
